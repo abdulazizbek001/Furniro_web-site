@@ -1,0 +1,156 @@
+//===================================== ROOMS START =====================================//
+
+.rooms {
+    width: 100%;
+    background: #fcf8f3;
+    padding: 24px 0;
+    margin-bottom: 79px;
+
+    &_box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &_box-left {
+        margin-right: 42px;
+
+        &-title {
+            width: 388px;
+            margin: 0;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 120%;
+            color: #3a3a3a;
+            margin-bottom: 7px;
+        }
+
+        &-text {
+            width: 321px;
+            margin: 0;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: #616161;
+            margin-bottom: 25px;
+        }
+
+        &-btn {
+            padding: 12px 36px;
+            background-color: #B88E2F;
+            border: none;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 150%;
+            color: #fff;
+        }
+    }
+
+    &_box-center {
+        position: relative;
+        width: 404px;
+        height: 567px;
+        background-image: url("/src/assets/img/rooms-center_img.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &-wrap {
+            position: absolute;
+            left: 24px;
+            bottom: 24px;
+            backdrop-filter: blur(3px);
+            background: rgba(255, 255, 255, 0.72);
+            padding: 32px;
+        }
+
+        &-text {
+            width: 142px;
+            display: flex;
+            align-items: center;
+            margin: 0;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: #616161;
+            margin-bottom: 8px;
+        }
+
+        &-title {
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 120%;
+            margin: 0;
+            color: #3a3a3a;
+        }
+
+        &-btn {
+            position: absolute;
+            bottom: 24px;
+            right: 115px;
+            padding: 12px;
+            background-color: #B88E2F;
+            border: none;
+        }
+    }
+
+    &_box-right {
+        margin-left: 24px;
+        position: relative;
+
+        &-list {
+            width: 372px;
+            display: flex;
+            padding: 0;
+            align-items: center;
+            gap: 0 24px;
+            margin-bottom: 40px;
+        }
+
+        &-item1 {
+            width: 372px;
+
+            & img {
+                object-fit: cover;
+            }
+        }
+
+        &-item2 {
+            display: none;
+        }
+
+        &-item3 {
+            display: none;
+        }
+
+        &-item4 {
+            display: none;
+        }
+
+        &-btn-strelka {
+            position: relative;
+            bottom: 219px;
+            left: 339px;
+            padding: 12px;
+            border-radius: 100%;
+            border: none;
+            background-color: #fff;
+            box-shadow: 0 4px 14px 1px rgba(0, 0, 0, 0.16);
+        }
+
+        &-list-sluyder {
+            position: absolute;
+            bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 0 20px;
+            margin: 0;
+        }
+
+        &-btn {
+            background-color: transparent;
+            border: none;
+        }
+    }
+}
+
+//===================================== ROOMS END =====================================//

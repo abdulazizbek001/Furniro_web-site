@@ -1,0 +1,158 @@
+//===================================== SHOP-INFO START =====================================//
+
+.shop-info {
+
+    &-list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px 32px;
+
+        .shop-info-item {
+            position: relative;
+            transition: all 2s ease;
+
+            &:hover {
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 285px;
+                    height: 446px;
+                    transition: all 1s ease;
+                    opacity: 0.5;
+                    background-color: black;
+                    cursor: pointer;
+                    z-index: 6;
+                }
+
+                .shop-info-wrap {
+                    position: absolute;
+                    bottom: 223px;
+                    transition: all 0.3s ease;
+                    z-index: 9;
+                }
+            }
+        }
+    }
+
+    &-box {
+        position: relative;
+        top: -10px;
+        padding: 16px 0 0 16px;
+        background: #f4f5f7;
+
+        &_title {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 120%;
+            color: #3a3a3a;
+            margin: 0;
+            margin-bottom: 8px;
+        }
+
+        &_titleh6 {
+            margin: 0;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: #898989;
+            margin-bottom: 8px;
+        }
+
+        &_span {
+            display: flex;
+            align-items: center;
+            gap: 0 16px;
+        }
+
+
+        &_titleh2 {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 150%;
+            color: #3a3a3a;
+        }
+
+        &_line_text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #b0b0b0;
+        }
+
+        &_item2 {
+            width: 500px;
+        }
+
+    }
+
+    &-wrap {
+        position: absolute;
+        bottom: 0;
+        left: 50px;
+        width: 202px;
+        margin: 0 auto;
+        z-index: -1;
+    }
+
+    & button {
+        padding: 12px 55px;
+        color: #B88E2F;
+        border: none;
+        transition: all 0.3s ease;
+        margin-bottom: 30px;
+    }
+
+    &-wrap_heart {
+        width: 20px;
+        margin: 0 auto;
+        background: transparent;
+        padding: 0;
+    }
+
+    .shop-info_btn1 {
+        padding: 15px 26px;
+        border-radius: 10px;
+        font-weight: 400;
+        font-size: 20px;
+        color: #fff;
+        background-color: #B88E2F;
+
+        &:hover {
+            color: #B88E2F;
+            border: 2px solid #B88E2F;
+            background-color: white;
+        }
+    }
+
+    .shop-info_btns {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 38px;
+    }
+
+    .shop-info_btn {
+        padding: 15px 26px;
+        border-radius: 10px;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000;
+        background: #f9f1e7;
+
+        &:hover {
+            color: black;
+            border: 2px solid #f9f1e7;
+            background-color: white;
+        }
+    }
+
+}
+
+.shop-info-item_list {
+    display: flex;
+    align-items: center;
+}
+
+//===================================== SHOP-INFO END =====================================//

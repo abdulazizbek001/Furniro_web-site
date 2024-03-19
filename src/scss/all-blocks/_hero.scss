@@ -1,0 +1,58 @@
+//===================================== HERO START =====================================//
+
+.hero {
+    background-image: url("/src/assets/img/hero_bg-image.jpg");
+    background-size: cover;
+    background-position: -89px -70px;
+    margin-bottom: 40px;
+    
+    &_wrapper {
+        padding: 157px 58px 116px 639px;
+    }
+
+    &_box {
+        display: inline-block;
+        border-radius: 10px;
+        background: #fff3e3;
+        padding: 62px 43px 37px 39px;
+    }
+
+    &-text {
+        font-weight: 600;
+        font-size: 16px;
+        letter-spacing: 0.19em;
+        color: #333;
+        margin-bottom: 0;
+    }
+
+    &-title {
+        width: 381px;
+        font-weight: 700;
+        font-size: 52px;
+        line-height: 125%;
+        color: #B88E2F;
+        margin: 0;
+    }
+
+    &-bottom_text {
+        width: 466px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 133%;
+        color: #333;
+        margin-bottom: 46px;
+    }
+
+    &-btn {
+        padding: 25px 72px;
+        background: #B88E2F;
+        font-weight: 700;
+        font-size: 16px;
+        text-transform: uppercase;
+        border: none;
+        color: #fff;
+    }
+}
+
+//===================================== HERO END =====================================//

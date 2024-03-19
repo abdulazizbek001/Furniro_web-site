@@ -1,0 +1,81 @@
+//===================================== GENERATOR START =====================================//
+
+.generator {
+    padding: 20px 25px;
+    width: 100%;
+    background: #f9f1e7;
+
+    &_box {
+        display: flex;
+        align-items: center;
+    }
+
+    &_system {
+        margin-right: 12px;
+        background-color: transparent;
+        border: none;
+    }
+
+    &-text {
+        margin-right: 23px;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000;
+    }
+
+    &_menu {
+        margin-right: 24px;
+        background-color: transparent;
+        border: none;
+    }
+
+    &_list {
+        margin-right: 30px;
+        background-color: transparent;
+        border: none;
+    }
+
+    &_line {
+        transform: rotate(-90deg);
+        border: 2px solid #9f9f9f;
+        width: 37px;
+        height: 0px;
+        margin: 0;
+    }
+
+    &_text-rezults {
+        width: 195px;
+        margin-right: 274px;
+        font-weight: 400;
+        font-size: 16px;
+        color: #000;
+    }
+
+    &_text-show {
+        margin-right: 17px;
+        font-weight: 400;
+        font-size: 20px;
+        color: #000;
+    }
+
+    &_show-input {
+        margin-right: 29px;
+        padding: 12px 18px;
+        width: 55px;
+        border: none;
+        outline: none;
+        font-weight: 400;
+        font-size: 20px;
+        color: #9f9f9f;
+    }
+
+    &_short-input {
+        width: 135px;
+        border: none;
+        outline: none;
+        padding: 12px 30px 13px 30px;
+        background-color: #fff;
+    }
+}
+
+//===================================== GENERATOR END =====================================//

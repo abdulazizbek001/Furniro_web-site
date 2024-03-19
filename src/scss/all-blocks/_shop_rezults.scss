@@ -1,0 +1,38 @@
+//===================================== REZULTS START =====================================//
+
+.rezults {
+    width: 100%;
+    background-color: #f9f1e7;
+    padding: 100px 0;
+
+    &_list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0 55px;
+    }
+
+    &_item {
+        display: flex;
+        align-items: center;
+        gap: 0 10px;
+    }
+
+    &_title {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 150%;
+        color: #242424;
+        margin: 0;
+    }
+
+    &_text {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #898989;
+        margin: 0;
+    }
+}
+
+//===================================== REZULTS END =====================================//

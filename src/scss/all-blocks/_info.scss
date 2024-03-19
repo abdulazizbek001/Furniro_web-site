@@ -1,0 +1,143 @@
+//===================================== INFO START =====================================//
+
+.info {
+    margin-bottom: 69px;
+
+    &_title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 120%;
+        color: #3a3a3a;
+        margin-bottom: 32px;
+    }
+
+    &_list {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 32px;
+
+        .info-item {
+            position: relative;
+            transition: all 2s ease;
+
+            &:hover {
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 285px;
+                    height: 446px;
+                    transition: all 1s ease;
+                    opacity: 0.5;
+                    background-color: black;
+                    cursor: pointer;
+                    z-index: 6;
+                }
+
+                .info-wrap {
+                    position: absolute;
+                    bottom: 223px;
+                    left: 59px;
+                    transition: all 0.3s ease;
+                    z-index: 9;
+                }
+
+                .info-img {
+                    width: 285px;
+                    height: 301px;
+                }
+            }
+        }
+    }
+
+    &-box {
+        position: relative;
+        top: -10px;
+        padding: 16px 0 0 16px;
+        background: #f4f5f7;
+
+        &_title {
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 120%;
+            color: #3a3a3a;
+            margin: 0;
+            margin-bottom: 8px;
+        }
+
+        &_titleh6 {
+            margin: 0;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: #898989;
+            margin-bottom: 8px;
+        }
+
+        &_span {
+            display: flex;
+            align-items: center;
+            gap: 0 16px;
+        }
+
+
+        &_titleh2 {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 150%;
+            color: #3a3a3a;
+        }
+
+        &_line_text {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: #b0b0b0;
+        }
+    }
+
+    &-wrap {
+        position: absolute;
+        bottom: 0;
+        left: 59px;
+        width: 202px;
+        margin: 0 auto;
+        z-index: -1;
+    }
+
+    .info-wrap button {
+        padding: 12px 55px;
+        color: #B88E2F;
+        border: none;
+        transition: all 0.3s ease;
+        margin-bottom: 30px;
+    }
+
+    .info-wrap_heart {
+        width: 15px;
+        height: 15px;transform: translateX(20px);
+        background-color: transparent;
+        padding: 0;
+    }
+
+    &_link {
+        width: 245px;
+        margin: 0 auto;
+        display: block;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 150%;
+        color: #B88E2F;
+        text-align: center;
+        border: 1px solid #B88E2F;
+        padding: 12px 0;
+    }
+}
+
+
+
+//===================================== INFO END =====================================//

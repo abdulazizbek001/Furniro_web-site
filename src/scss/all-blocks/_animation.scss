@@ -1,0 +1,119 @@
+//===================================== ANIMATION START =====================================//
+
+.animation {
+    width: 100%;
+    margin-bottom: 727px;
+
+    &-text {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+        color: #616161;
+        margin: 0;
+        margin-bottom: 8px;
+    }
+
+    &-title {
+        margin: 0;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 120%;
+        text-align: center;
+        color: #3a3a3a;
+    }
+
+    &_list {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    // @keyframes slidein {
+    // //     from {
+    // //         transform: translateX(0);
+    // //     }
+
+    // //     to {
+    // //         transform: translateX(90%);
+    // //     }
+
+    // //     form {
+    // //         transform: translateX(0);
+    // //     }
+
+    // //     to {
+    // //         transform: translateX(90%);
+    // //     }
+    // // }
+
+    // // .animation_list {
+    // //     animation: slidein 30s infinite;
+    // // }
+
+    &_item {
+        transition: all 2s ease;
+    }
+
+    &_item1 {
+        position: absolute;
+        top: -40px;
+        left: -332px;
+    }
+
+    &_item2 {
+        position: absolute;
+        top: 21px;
+        left: 70px;
+    }
+
+    &_item3 {
+        position: absolute;
+        top: 109px;
+        left: 540px;
+    }
+
+    &_item4 {
+        position: absolute;
+        top: 40px;
+        left: 853px;
+    }
+
+    &_item5 {
+        position: absolute;
+        top: -41px;
+        left: 1162px;
+        z-index: -1;
+    }
+
+    &_item6 {
+        position: absolute;
+        top: 351px;
+        left: -214px;
+    }
+
+    &_item7 {
+        position: absolute;
+        top: 351px;
+        left: 186px;
+    }
+
+    &_item8 {
+        position: absolute;
+        top: 406px;
+        left: 853px;
+    }
+
+    &_item9 {
+        position: absolute;
+        top: 407px;
+        left: 1050px;
+    }
+
+    & ul li img {
+        border: 2px solid black;
+    }
+}
+
+//===================================== ANIMATION END =====================================//
